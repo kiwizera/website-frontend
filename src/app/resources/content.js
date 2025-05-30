@@ -35,8 +35,14 @@ const home = {
     label: "Home",
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: "Welcome to my portfolio",
-    subheadline: "I'm João Ferreira, a Full Stack Software Developer",
+    headline: "Welcome to my brand new portfolio",
+    subheadline: "I'm João Ferreira, a Full Stack Software Developer passionate about building scalable and user-friendly web applications",
+    slider: [
+        {
+            imageURL: "/images/home.png",
+            title: "Building scalable and optimized web-applications"
+        }
+    ]
 }
 
 export {person, social, home};

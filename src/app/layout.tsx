@@ -6,7 +6,6 @@ import { home } from "@/app/resources/content";
 import { Meta } from "@/modules";
 
 import { Geist } from "next/font/google";
-import { Geist_Mono } from "next/font/google";
 
 const geist = Geist({
   subsets: ['latin'],
